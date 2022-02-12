@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	env: {
+		EBAY_OAUTH: process.env.EBAY_OAUTH,
+	},
+	reactStrictMode: true,
+};
