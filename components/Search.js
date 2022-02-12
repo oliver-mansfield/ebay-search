@@ -14,8 +14,8 @@ const Search = () => {
 
 	const renderProducts = () => {
 		if (productData !== undefined) {
-			return productData.itemSummaries.map((item) => {
-				return <ResultItem productData={item} />;
+			return productData.itemSummaries.map((item, index) => {
+				return <ResultItem productData={item} key={index} />;
 			});
 		} else {
 			return <p>Loading...</p>;
@@ -39,8 +39,6 @@ const Search = () => {
 			</p>
 
 			{renderProducts()}
-
-			{/* {productData !== undefined ? <ResultItem /> : <p>Loading...</p>} */}
 		</>
 	);
 };
