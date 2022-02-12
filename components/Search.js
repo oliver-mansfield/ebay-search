@@ -1,14 +1,25 @@
 import { useState } from "react";
 import getProducts from "../util/getProducts";
+import ResultItem from "../components/ResultItem";
 
 const Search = () => {
 	const [searchTerm, setSearchTerm] = useState("drone");
-	const [productData, setProductData] = useState({});
+	const [productData, setProductData] = useState();
 
 	const handleGetProductData = async (searchTerm) => {
 		await getProducts(searchTerm).then((data) => {
 			setProductData(data);
 		});
+	};
+
+	const renderProducts = () => {
+		if (productData !== undefined) {
+			return productData.itemSummaries.map((item) => {
+				return <ResultItem productData={item} />;
+			});
+		} else {
+			return <p>Loading...</p>;
+		}
 	};
 
 	return (
@@ -26,6 +37,10 @@ const Search = () => {
 			>
 				Search
 			</p>
+
+			{renderProducts()}
+
+			{/* {productData !== undefined ? <ResultItem /> : <p>Loading...</p>} */}
 		</>
 	);
 };
