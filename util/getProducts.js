@@ -1,5 +1,7 @@
+import debugJson from "./debugJson";
+
 const getProducts = async (searchTerm) => {
-	const url = `https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=${searchTerm}&limit=3`;
+	const url = `https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=${searchTerm}&limit=6`;
 	const oauth = `Bearer ${process.env.EBAY_OAUTH}`;
 	const headers = {
 		Authorization: oauth,

@@ -1,15 +1,22 @@
-$colour-grey: #ccc;
+$colour-grey: #ececec;
 $colour-grey2: #ddd;
+$colour-orange: #ff7276;
 
 .page {
 	width: 800px;
-	margin: 50px auto 0 auto;
+	margin: 50px auto;
 }
 
 .search {
 	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
 	padding: 50px;
-	border: 1px solid black;
+	border: 3px solid $colour-orange;
+	background: #fff;
+	// -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+	// -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+	// box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 
 	&__title {
 		font-size: 2rem;
@@ -26,21 +33,33 @@ $colour-grey2: #ddd;
 	}
 
 	&__input {
-		padding: 5px 10px;
+		padding: 10px;
 		width: 300px;
 		font-size: 1rem;
+		border: 1px solid #000;
 	}
 
 	&__button {
-		color: black;
-		background: $colour-grey;
-		border: 1px solid black;
-		padding: 5px 10px;
+		color: $colour-orange;
+		border: 1px solid $colour-orange;
+		padding: 5px 20px;
 		font-size: 1rem;
 		margin-top: 20px;
+		background-color: #fff;
+		border-radius: 10px;
 
 		&:hover {
-			background: $colour-grey2;
+			background: $colour-orange;
+			color: #fff;
+			cursor: pointer;
 		}
 	}
+}
+
+.productlist {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 20px;
+	column-gap: 20px;
 }

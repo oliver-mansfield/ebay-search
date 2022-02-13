@@ -1,0 +1,268 @@
+{
+	"href": "https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=drone&limit=3&offset=0",
+	"total": 4,
+	"next": "https://api.sandbox.ebay.com/buy/browse/v1/item_summary/search?q=drone&limit=3&offset=3",
+	"limit": 3,
+	"offset": 0,
+	"itemSummaries": [
+		{
+			"itemId": "v1|110545952001|410107725407",
+			"title": "S83A RC Drone with Dual HD Camera Mini Drones WiFi FPV RC Quadcopter 2 Batteries",
+			"itemGroupHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=110545952001",
+			"image": {
+				"imageUrl": "https://i.ebayimg.com/thumbs/images/g/OKgAAOSwtMZiBj1J/s-l225.jpg"
+			},
+			"price": {
+				"value": "42.48",
+				"currency": "USD"
+			},
+			"itemGroupType": "SELLER_DEFINED_VARIATIONS",
+			"itemHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/v1%7C110545952001%7C410107725407",
+			"seller": {
+				"username": "testuser_pa4_demo_4",
+				"feedbackPercentage": "0.0",
+				"feedbackScore": 500
+			},
+			"condition": "New",
+			"conditionId": "1000",
+			"thumbnailImages": [
+				{
+					"imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/OKgAAOSwtMZiBj1J/s-l225.jpg"
+				}
+			],
+			"shippingOptions": [
+				{
+					"shippingCostType": "FIXED",
+					"shippingCost": {
+						"value": "0.00",
+						"currency": "USD"
+					}
+				}
+			],
+			"buyingOptions": ["FIXED_PRICE"],
+			"itemAffiliateWebUrl": "http://www.sandbox.ebay.com/itm/S83A-RC-Drone-with-Dual-HD-Camera-Mini-Drones-WiFi-FPV-RC-Quadcopter-2-Batteries-/110545952001?hash=item19bd0d5d01%3Ag%3AOKgAAOSwtMZiBj1J&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=%253CePNCampaignId%253E&customid=%253CreferenceId%253E%253C%252FreferenceId%253E&toolid=10049",
+			"itemWebUrl": "http://www.sandbox.ebay.com/itm/S83A-RC-Drone-with-Dual-HD-Camera-Mini-Drones-WiFi-FPV-RC-Quadcopter-2-Batteries-/110545952001?hash=item19bd0d5d01:g:OKgAAOSwtMZiBj1J",
+			"itemLocation": {
+				"postalCode": "150**",
+				"country": "US"
+			},
+			"categories": [
+				{
+					"categoryId": "179697"
+				},
+				{
+					"categoryId": "625"
+				}
+			],
+			"additionalImages": [
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_2_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_3_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_4_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_5_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_6_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_7_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_8_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_9_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_10_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952001_11_0_1/225x225.jpg"
+				}
+			],
+			"adultOnly": false,
+			"legacyItemId": "110545952001",
+			"availableCoupons": false,
+			"itemCreationDate": "2022-02-11T10:41:47.000Z",
+			"topRatedBuyingExperience": false,
+			"priorityListing": false,
+			"listingMarketplaceId": "EBAY_US"
+		},
+		{
+			"itemId": "v1|110545562440|0",
+			"title": "FIFISH V6S Underwater Drone with Robotic Arm Claw+VR Box+100M Cable+4000lm LED",
+			"image": {
+				"imageUrl": "https://i.ebayimg.com/thumbs/images/g/I1cAAOSw9UlhngoG/s-l225.jpg"
+			},
+			"price": {
+				"value": "3199.00",
+				"currency": "USD"
+			},
+			"itemHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/v1%7C110545562440%7C0",
+			"seller": {
+				"username": "testuser_pa4_demo_2",
+				"feedbackPercentage": "0.0",
+				"feedbackScore": 500
+			},
+			"condition": "New",
+			"conditionId": "1000",
+			"thumbnailImages": [
+				{
+					"imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/I1cAAOSw9UlhngoG/s-l225.jpg"
+				}
+			],
+			"shippingOptions": [
+				{
+					"shippingCostType": "FIXED",
+					"shippingCost": {
+						"value": "0.00",
+						"currency": "USD"
+					}
+				}
+			],
+			"buyingOptions": ["FIXED_PRICE"],
+			"itemAffiliateWebUrl": "http://www.sandbox.ebay.com/itm/FIFISH-V6S-Underwater-Drone-with-Robotic-Arm-Claw-VR-Box-100M-Cable-4000lm-LED-/110545562440?hash=item19bd076b48%3Ag%3AI1cAAOSw9UlhngoG&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=%253CePNCampaignId%253E&customid=%253CreferenceId%253E%253C%252FreferenceId%253E&toolid=10049",
+			"itemWebUrl": "http://www.sandbox.ebay.com/itm/FIFISH-V6S-Underwater-Drone-with-Robotic-Arm-Claw-VR-Box-100M-Cable-4000lm-LED-/110545562440?hash=item19bd076b48:g:I1cAAOSw9UlhngoG",
+			"itemLocation": {
+				"postalCode": "900**",
+				"country": "US"
+			},
+			"categories": [
+				{
+					"categoryId": "179697"
+				},
+				{
+					"categoryId": "625"
+				}
+			],
+			"additionalImages": [
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_2_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_3_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_4_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_5_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_6_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_7_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_8_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545562440_9_0_1/225x225.jpg"
+				}
+			],
+			"adultOnly": false,
+			"legacyItemId": "110545562440",
+			"availableCoupons": false,
+			"itemCreationDate": "2022-01-20T06:56:38.000Z",
+			"topRatedBuyingExperience": false,
+			"priorityListing": false,
+			"listingMarketplaceId": "EBAY_US"
+		},
+		{
+			"itemId": "v1|110545952002|410107725409",
+			"title": "S83A RC Drone with Dual HD Camera Mini Drones WiFi FPV RC Quadcopter 2 Batteries",
+			"itemGroupHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/get_items_by_item_group?item_group_id=110545952002",
+			"image": {
+				"imageUrl": "https://i.ebayimg.com/thumbs/images/g/gFoAAOSwOtViBj2G/s-l225.jpg"
+			},
+			"price": {
+				"value": "42.48",
+				"currency": "USD"
+			},
+			"itemGroupType": "SELLER_DEFINED_VARIATIONS",
+			"itemHref": "https://api.sandbox.ebay.com/buy/browse/v1/item/v1%7C110545952002%7C410107725409",
+			"seller": {
+				"username": "testuser_pa4_demo_5",
+				"feedbackPercentage": "100.0",
+				"feedbackScore": 2
+			},
+			"condition": "New",
+			"conditionId": "1000",
+			"thumbnailImages": [
+				{
+					"imageUrl": "http://i.ebayimg.sandbox.ebay.com/images/g/gFoAAOSwOtViBj2G/s-l225.jpg"
+				}
+			],
+			"shippingOptions": [
+				{
+					"shippingCostType": "FIXED",
+					"shippingCost": {
+						"value": "0.00",
+						"currency": "USD"
+					}
+				}
+			],
+			"buyingOptions": ["FIXED_PRICE"],
+			"itemAffiliateWebUrl": "http://www.sandbox.ebay.com/itm/S83A-RC-Drone-with-Dual-HD-Camera-Mini-Drones-WiFi-FPV-RC-Quadcopter-2-Batteries-/110545952002?hash=item19bd0d5d02%3Ag%3AgFoAAOSwOtViBj2G&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=%253CePNCampaignId%253E&customid=%253CreferenceId%253E%253C%252FreferenceId%253E&toolid=10049",
+			"itemWebUrl": "http://www.sandbox.ebay.com/itm/S83A-RC-Drone-with-Dual-HD-Camera-Mini-Drones-WiFi-FPV-RC-Quadcopter-2-Batteries-/110545952002?hash=item19bd0d5d02:g:gFoAAOSwOtViBj2G",
+			"itemLocation": {
+				"postalCode": "150**",
+				"country": "US"
+			},
+			"categories": [
+				{
+					"categoryId": "179697"
+				},
+				{
+					"categoryId": "625"
+				}
+			],
+			"additionalImages": [
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_2_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_3_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_4_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_5_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_6_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_7_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_8_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_9_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_10_0_1/225x225.jpg"
+				},
+				{
+					"imageUrl": "https://galleryplus.ebayimg.com/ws/web/110545952002_11_0_1/225x225.jpg"
+				}
+			],
+			"adultOnly": false,
+			"legacyItemId": "110545952002",
+			"availableCoupons": false,
+			"itemCreationDate": "2022-02-11T10:42:48.000Z",
+			"topRatedBuyingExperience": false,
+			"priorityListing": false,
+			"listingMarketplaceId": "EBAY_US"
+		}
+	]
+}

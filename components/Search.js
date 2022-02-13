@@ -1,10 +1,10 @@
 import { useState } from "react";
 import getProducts from "../util/getProducts";
-import ResultItem from "../components/ResultItem";
+import Product from "../components/Product";
 import styles from "./Search.module.scss";
 
 const Search = () => {
-	const [searchTerm, setSearchTerm] = useState("drone");
+	const [searchTerm, setSearchTerm] = useState("book");
 	const [productData, setProductData] = useState();
 
 	const handleGetProductData = async (searchTerm) => {
@@ -16,19 +16,29 @@ const Search = () => {
 	const renderProducts = () => {
 		if (productData !== undefined) {
 			return productData.itemSummaries.map((item, index) => {
-				return <ResultItem productData={item} key={index} />;
+				return <Product productData={item} key={index} />;
 			});
 		} else {
-			return <p>Loading...</p>;
+			return <p>Waiting...</p>;
 		}
 	};
 
 	return (
 		<div className={styles.page}>
 			<div className={styles.search}>
-				<h1 className={styles.search__title}>eBay Product Search</h1>
+				<h1 className={styles.search__title}>
+					eBay
+					<br />
+					Product Search
+				</h1>
 
-				<form className={styles.search__form}>
+				<form
+					className={styles.search__form}
+					onSubmit={(e) => {
+						e.preventDefault();
+						handleGetProductData(searchTerm);
+					}}
+				>
 					<input
 						className={styles.search__input}
 						type="text"
@@ -37,7 +47,6 @@ const Search = () => {
 					></input>
 					<button
 						className={styles.search__button}
-						type="button"
 						onClick={() => {
 							handleGetProductData(searchTerm);
 						}}
@@ -46,7 +55,8 @@ const Search = () => {
 					</button>
 				</form>
 			</div>
-			{renderProducts()}
+
+			<div className={styles.productlist}>{renderProducts()}</div>
 		</div>
 	);
 };
