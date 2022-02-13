@@ -16,6 +16,7 @@ const Product = ({ productData }) => {
 		<a
 			href={productData.itemAffiliateWebUrl}
 			target="_blank"
+			rel="noreferrer"
 			className={styles.product}
 		>
 			<p className={styles.product__title}>{productData.title}</p>
