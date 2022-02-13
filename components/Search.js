@@ -22,8 +22,8 @@ const Search = () => {
 		if (productData.total === 0) {
 			return (
 				<p className={styles.error}>
-					No products found for the search term "{searchTerm}". <br /> Try
-					common searches such as "book" or "laptop".
+					No products found for the search term &quot;{searchTerm}&quot;. Try
+					common searches such as &quot;book&quot; or &quot;laptop&quot;.
 				</p>
 			);
 		}
