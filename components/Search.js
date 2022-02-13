@@ -5,7 +5,7 @@ import styles from "./Search.module.scss";
 
 const Search = () => {
 	const [searchTerm, setSearchTerm] = useState("garden");
-	const [productData, setProductData] = useState();
+	const [productData, setProductData] = useState({});
 
 	const handleGetProductData = async (searchTerm) => {
 		await getProducts(searchTerm).then((data) => {
@@ -14,12 +14,18 @@ const Search = () => {
 	};
 
 	const renderProducts = () => {
-		if (productData !== undefined) {
+		if (productData.itemSummaries !== undefined) {
 			return productData.itemSummaries.map((item, index) => {
 				return <Product productData={item} key={index} />;
 			});
-		} else {
-			return <p>Waiting...</p>;
+		}
+		if (productData.total === 0) {
+			return (
+				<p className={styles.error}>
+					No products found for the search term '{searchTerm}'. <br /> Try
+					common searches such as 'book' or 'laptop'.
+				</p>
+			);
 		}
 	};
 

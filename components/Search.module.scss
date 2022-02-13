@@ -52,8 +52,14 @@ $colour-orange: #ff7276;
 			background: $colour-orange;
 			color: #fff;
 			cursor: pointer;
+			text-align: center;
 		}
 	}
+}
+
+.error {
+	text-align: $colour-orange;
+	color: red;
 }
 
 .productlist {
