@@ -1,0 +1,46 @@
+$colour-grey: #ccc;
+$colour-grey2: #ddd;
+
+.page {
+	width: 800px;
+	margin: 50px auto 0 auto;
+}
+
+.search {
+	width: 100%;
+	padding: 50px;
+	border: 1px solid black;
+
+	&__title {
+		font-size: 2rem;
+		font-family: sans-serif;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 1rem;
+	}
+
+	&__input {
+		padding: 5px 10px;
+		width: 300px;
+		font-size: 1rem;
+	}
+
+	&__button {
+		color: black;
+		background: $colour-grey;
+		border: 1px solid black;
+		padding: 5px 10px;
+		font-size: 1rem;
+		margin-top: 20px;
+
+		&:hover {
+			background: $colour-grey2;
+		}
+	}
+}

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import getProducts from "../util/getProducts";
 import ResultItem from "../components/ResultItem";
+import styles from "./Search.module.scss";
 
 const Search = () => {
 	const [searchTerm, setSearchTerm] = useState("drone");
@@ -23,23 +24,30 @@ const Search = () => {
 	};
 
 	return (
-		<>
-			<h2>Search Component</h2>
-			<input
-				type="text"
-				value={searchTerm}
-				onChange={(e) => setSearchTerm(e.target.value)}
-			></input>
-			<p
-				onClick={() => {
-					handleGetProductData(searchTerm);
-				}}
-			>
-				Search
-			</p>
+		<div className={styles.page}>
+			<div className={styles.search}>
+				<h1 className={styles.search__title}>eBay Product Search</h1>
 
+				<form className={styles.search__form}>
+					<input
+						className={styles.search__input}
+						type="text"
+						value={searchTerm}
+						onChange={(e) => setSearchTerm(e.target.value)}
+					></input>
+					<button
+						className={styles.search__button}
+						type="button"
+						onClick={() => {
+							handleGetProductData(searchTerm);
+						}}
+					>
+						Search
+					</button>
+				</form>
+			</div>
 			{renderProducts()}
-		</>
+		</div>
 	);
 };
 
