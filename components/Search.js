@@ -31,6 +31,10 @@ const Search = () => {
 
 	return (
 		<div className={styles.page}>
+			<p className={styles.page__intro}>
+				Made by Oliver Mansfield, February 2022
+			</p>
+
 			<div className={styles.search}>
 				<h1 className={styles.search__title}>
 					eBay
