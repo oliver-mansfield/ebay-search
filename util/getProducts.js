@@ -11,13 +11,19 @@ const getProducts = async (searchTerm) => {
 			"affiliateCampaignId=<ePNCampaignId>,affiliateReferenceId=<referenceId></referenceId>",
 	};
 
-	return await fetch(url, {
+	return fetch(url, {
 		headers: headers,
 	})
-		.then((response) => response.json())
-		.then((data) => {
-			console.log(data);
-			return data;
+		.then((response) => {
+			if (response.ok) {
+				return response.json();
+			} else {
+				console.log("error");
+				return debugJson;
+			}
+		})
+		.then((responseJson) => {
+			return responseJson;
 		});
 };
 

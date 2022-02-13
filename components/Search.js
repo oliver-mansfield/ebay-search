@@ -4,7 +4,7 @@ import Product from "../components/Product";
 import styles from "./Search.module.scss";
 
 const Search = () => {
-	const [searchTerm, setSearchTerm] = useState("book");
+	const [searchTerm, setSearchTerm] = useState("garden");
 	const [productData, setProductData] = useState();
 
 	const handleGetProductData = async (searchTerm) => {
